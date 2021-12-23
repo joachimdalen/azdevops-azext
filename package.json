@@ -1,0 +1,22 @@
+{
+  "name": "azdevops-azext",
+  "version": "1.0.0",
+  "description": "Azure DevOps Tasks for https://github.com/joachimdalen/azext",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joachimdalen/azdevops-azext.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/joachimdalen/azdevops-azext/issues"
+  },
+  "homepage": "https://github.com/joachimdalen/azdevops-azext#readme",
+  "devDependencies": {
+    "@joachimdalen/azext": "^0.2.0"
+  }
+}
