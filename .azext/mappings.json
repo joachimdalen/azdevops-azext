@@ -1,5 +1,5 @@
 {
   "tasks": {
-    "task-name": "/some/file/path"
+    "azext-changelog": "../tasks/azext-changelog/task.json"
   }
 }
