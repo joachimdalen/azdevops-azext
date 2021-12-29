@@ -1,0 +1,12 @@
+{
+  "name": "azext-readme",
+  "version": "0.0.1",
+  "description": "Manage changelogs using AzExt",
+  "scripts": {
+    "build": "tsc -p .",
+    "postbuild": "webpack --config webpack.config.js --mode development"
+  },
+  "devDependencies": {
+    "webpack-merge": "^5.8.0"
+  }
+}

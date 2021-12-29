@@ -1,5 +1,6 @@
 {
   "tasks": {
-    "azext-changelog": "../tasks/azext-changelog/task.json"
+    "azext-changelog": "../tasks/azext-changelog/task.json",
+    "azext-readme": "../tasks/azext-readme/task.json"
   }
 }

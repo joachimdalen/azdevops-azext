@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Azure DevOps Tasks for https://github.com/joachimdalen/azext",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "docs:readme": "azext readme generate --input ./DOCS.md --output DOCS-GEN.md",
+    "docs:readme2": "azext readme generate --input ./DOCS-GEN.md --output DOCS-GEN2.md"
   },
   "repository": {
     "type": "git",

@@ -1,0 +1,46 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+  "id": "65ecc061-840f-4a50-81b0-61ad4b6bf0d8",
+  "name": "AzExtInstall",
+  "friendlyName": "AzExt Install",
+  "description": "A task to perform variable replacement for environment files",
+  "helpMarkDown": "[Learn more about this task](https://marketplace.visualstudio.com/items?itemName=joachimdalen.env-transform)",
+  "category": "Utility",
+  "author": "Joachim Dalen",
+  "version": {
+    "Major": 0,
+    "Minor": 0,
+    "Patch": 1
+  },
+  "inputs": [
+    {
+      "name": "command",
+      "type": "pickList",
+      "label": "Command",
+      "defaultValue": "generate",
+      "required": false,
+      "options": {
+        "generate": "Generate"
+      }
+    },
+    {
+      "name": "output",
+      "type": "string",
+      "label": "Output",
+      "defaultValue": "CHANGELOG.md",
+      "visibleRule": "command = generate"
+    },
+    {
+        "name": "configName",
+        "type": "string",
+        "label": "Changelog Config Name",
+        "defaultValue": "changelog-config.json",
+        "visibleRule": "command = generate"
+      }
+  ],
+  "execution": {
+    "Node10": {
+      "target": "index.js"
+    }
+  }
+}

@@ -12,8 +12,11 @@
     "true": ":white_check_mark:"
   },
   "partials": {
-    "azext-changelog-readme": {
+    "azext-changelog-docs": {
       "file": "../tasks/azext-changelog/README.md"
+    },
+    "azext-readme-docs": {
+      "file": "../tasks/azext-readme/README.md"
     }
   }
 }
