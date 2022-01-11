@@ -1,0 +1,34 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Microsoft/azure-pipelines-task-lib/master/tasks.schema.json",
+  "id": "4f0e3908-98c1-49f1-9fce-de6ffe8df4a1",
+  "name": "AzExtChangelog",
+  "friendlyName": "AzExt Changelog",
+  "description": "",
+  "helpMarkDown": "",
+  "category": "Utility",
+  "author": "Joachim Dalen",
+  "version": {
+    "Major": 1,
+    "Minor": 0,
+    "Patch": 0
+  },
+  "inputs": [
+    {
+      "name": "output",
+      "type": "string",
+      "label": "Output",
+      "defaultValue": "CHANGELOG.md"
+    },
+    {
+      "name": "configName",
+      "type": "string",
+      "label": "Changelog Config Name",
+      "defaultValue": "changelog-config.json"
+    }
+  ],
+  "execution": {
+    "Node10": {
+      "target": "index.js"
+    }
+  }
+}

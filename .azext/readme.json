@@ -13,10 +13,10 @@
   },
   "partials": {
     "azext-changelog-docs": {
-      "file": "../tasks/azext-changelog/README.md"
+      "file": "../docs/tasks/azext-changelog.md"
     },
     "azext-readme-docs": {
-      "file": "../tasks/azext-readme/README.md"
+      "file": "../docs/tasks/azext-readme.md"
     }
   }
 }
